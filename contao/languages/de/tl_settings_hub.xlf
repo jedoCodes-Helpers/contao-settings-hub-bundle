@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_settings_hub.xlf" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_settings_hub.group_addons">
+        <source>More extension</source>
+        <target>Erweiterungen</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_catalog.0">
+        <source>Explore our extension</source>
+        <target>Weitere Erweiterungen von uns finden</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_catalog.1">
+        <source>Browse extension catalog.</source>
+        <target>Unseren Erweiterungskatalog durchsuchen.</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_documentations.0">
+        <source>Documentation</source>
+        <target>Dokumentationen</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_documentations.1">
+        <source>Documentations</source>
+        <target>Hier finden Sie alle bereitgestellten Handbücher zu unseren Produkten.</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_issues.0">
+        <source>Report an error</source>
+        <target>Fehler oder Verbesserungsvorschläge melden</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_issues.1">
+        <source>Document and track errors or suggestions for improvements to a product</source>
+        <target>Fehler oder Verbesserungsvorschläge für ein Produkt dokumentieren und nachverfolgen.</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_support.0">
+        <source>Further support options</source>
+        <target>Weitere Support Möglichkeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_settings_hub.addon_support.1">
+        <source>Visit our support page to learn more about the support options available</source>
+        <target>Besuchen Sie unsere Support-Seite, um mehr über die verfügbaren Support-Optionen zu erfahren.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,354 @@
+@import 'variables.css';
+
+/* Icons */
+:root {
+    --icon-logo: url("icons/logo.svg");
+    --icon-profile: url("icons/profile_small.svg");
+    --icon-security: url("icons/shield_small.svg");
+    --icon-favorites: url("icons/favorites_small.svg");
+    --icon-logout: url("icons/exit.svg");
+    --icon-toggle-all: url("icons/chevron-right.svg");
+    --icon-alert: url("icons/alert.svg");
+    --icon-favorite: url("icons/favorite.svg");
+    --icon-favorite--active: url("icons/favorite_active.svg");
+    --icon-manual: url("icons/manual.svg");
+    --icon-color-scheme: url("icons/color_scheme.svg");
+    --icon-arrow-left: url("icons/arrow_left.svg");
+    --icon-arrow-right: url("icons/arrow_right.svg");
+    --icon-visible: url("icons/visible.svg");
+    --icon-invisible: url("icons/invisible.svg");
+    --icon-loading: url("icons/loading.svg");
+    --icon-blocks: url("/bundles/jedocodessettingshub/icons/blocks.svg");
+    --icon-catalog: url("/bundles/jedocodessettingshub/icons/settings_hub_catalog.svg");
+}
+
+html[data-color-scheme="dark"] {
+    --icon-logo: url("icons/logo--dark.svg");
+    --icon-profile: url("icons/profile_small--dark.svg");
+    --icon-security: url("icons/shield_small--dark.svg");
+    --icon-favorites: url("icons/favorites_small--dark.svg");
+    --icon-logout: url("icons/exit--dark.svg");
+    --icon-toggle-all: url("icons/chevron-right--dark.svg");
+    --icon-alert: url("icons/alert--dark.svg");
+    --icon-favorite: url("icons/favorite--dark.svg");
+    --icon-favorite--active: url("icons/favorite_active--dark.svg");
+    --icon-manual: url("icons/manual--dark.svg");
+    --icon-color-scheme: url("icons/color_scheme--dark.svg");
+    --icon-arrow-left: url("icons/arrow_left--dark.svg");
+    --icon-arrow-right: url("icons/arrow_right--dark.svg");
+    --icon-visible: url("icons/visible--dark.svg");
+    --icon-invisible: url("icons/invisible--dark.svg");
+    --icon-loading: url("icons/loading--dark.svg");
+
+    --icon-blocks: url("/bundles/jedocodessettingshub/icons/blocks--dark.svg");
+    --icon-catalog: url("/bundles/jedocodessettingshub/icons/settings_hub_catalog--dark.svg");
+}
+
+#tl_navigation .group-jedocodes {
+    background: url("/bundles/jedocodessettingshub/icons/blocks--nav.svg") 3px 2px no-repeat;
+}
+
+.settings_hub .settings_hub_listing_container .settings_hub_group .settings_hub_group_inner {
+    padding: 20px;
+}
+.settings_hub .settings_hub_header {
+    position: relative;
+    margin: 3px 18px;
+    padding: 2px 0;
+}
+
+.settings_hub p {
+    padding: 9px 0 18px;
+    margin-bottom: 0;
+    color: #8a8a8a;
+    font-size: 0.95em;
+    line-height: 1.3;
+}
+.settings_hub P:last-child {
+    padding-bottom: 0;
+}
+.settings_hub a {
+    font-weight: bold;
+}
+.settings_hub span.denied {
+    color: #ccc;
+    font-weight: bold;
+}
+.settings_hub .settings_hub_head {
+    padding: 0 10px;
+    color: var(--text);
+    border-bottom: 1px solid var(--content-border);
+    background: var(--panel-bg);
+    text-align: center;
+    height: 100px;
+}
+.settings_hub .settings_hub_head .settings_hub_logo img {
+    max-width: 100%;
+    height: auto;
+}
+.settings_hub .settings_hub_head .settings_hub_logo {
+    color: #999;
+    font-weight: 400;
+    font-size: 0.85em;
+    margin-top: 4px;
+}
+.settings_hub .settings_hub_head .settings_hub_logo h3{
+    position: relative;
+    padding: 30px 0 10px 95px;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.settings_hub .settings_hub_head .settings_hub_logo h3:before {
+    content: "";
+    background-image: var(--icon-blocks);
+    position: absolute;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 10px;
+    top: 10px;
+    width: 75px;
+    height: 75px
+}
+
+.settings_hub .settings_hub_head .settings_hub_logo p{
+    padding: 0 0 0 95px;
+}
+
+.settings_hub .settings_hub_head .settings_hub_logo div a {
+    color: #999;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1;
+}
+.settings_hub .settings_hub_head .settings_hub_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.settings_hub .settings_hub_head .settings_hub_info a {
+    color: var(--text);
+}
+.settings_hub .settings_hub_head .settings_hub_info span {
+    display: block;
+    font-size: 0.9em;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+.settings_hub .settings_hub_head .settings_hub_info > div {
+    font-size: 0.85em;
+}
+
+
+
+.settings_hub .settings_hub_footer {
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    color: var(--text);
+    background: var(--panel-bg);
+    border-top: 1px solid var(--content-border);
+}
+.settings_hub .settings_hub_footer a {
+    display: inline-block;
+    font-weight: normal;
+    color: var(--text);
+    margin: 0 5px;
+}
+.settings_hub .settings_hub_footer a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+.settings_hub .settings_hub_listing_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 0 0;
+    margin: 20px 9px 5px;
+}
+.settings_hub .settings_hub_listing_container .settings_hub_group {
+    width: calc(100% - 18px);
+    background: var(--form-bg);
+    margin: 0 9px 18px;
+    color: var(--text);
+    border: 1px solid var(--content-border);
+    box-sizing: border-box;
+}
+.settings_hub .settings_hub_listing_container .settings_hub_group h3 {
+    position: relative;
+    padding: 20px 20px 20px 55px;
+    border-bottom: 1px solid var(--content-border);
+    color: var(--text);
+    background: var(--panel-bg);
+    font-weight: 500;
+}
+.settings_hub .settings_hub_listing_container .settings_hub_group h3:before {
+    position: absolute;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 18px;
+    top: 14px;
+    width: 25px;
+    height: 25px;
+}
+
+.settings_hub .settings_hub_listing_container .settings_hub_group h3.addons:before {
+    content: "";
+    background-image: var(--icon-catalog);
+}
+
+
+.navigation.provider, .navigation.type, .navigation.filter, .navigation.field_format, .navigation.interface, .navigation.config, .navigation.addon, .navigation.expose_module {
+    display: none !important;
+}
+
+
+
+.tl_listing .tl_file_list .log_level_0 {
+    font-weight: bold;
+}
+.tl_listing .tl_file_list .log_level_1 {
+    padding-left: 10px;
+}
+.tl_listing .tl_file_list .log_level_2 {
+    padding-left: 20px;
+}
+.tl_listing .tl_file_list .log_level_3 {
+    padding-left: 30px;
+}
+.tl_listing .tl_file_list .log_level_4 {
+    padding-left: 40px;
+}
+.tl_listing .tl_file_list .log_level_5 {
+    padding-left: 50px;
+}
+.tl_listing .tl_file_list .log_level_6 {
+    padding-left: 60px;
+}
+.tl_listing .tl_file_list .log_level_7 {
+    padding-left: 70px;
+}
+.tl_listing .list_icon_status {
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.tl_listing button.clrbtn {
+    border: 0 none;
+    background: transparent;
+}
+.tl_listing td.col_id {
+    position: relative;
+}
+.tl_listing td.col_id span.token {
+    position: absolute;
+    display: block;
+    bottom: 11px;
+    right: 11px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    background: #fff;
+    width: 8px;
+    padding: 2px;
+    overflow: hidden;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(0) {
+    right: -20px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(1) {
+    right: -4px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(2) {
+    right: 12px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(3) {
+    right: 28px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(4) {
+    right: 44px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(5) {
+    right: 60px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(6) {
+    right: 76px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(7) {
+    right: 92px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(8) {
+    right: 108px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(9) {
+    right: 124px;
+}
+.tl_listing td.col_id span.token + span.token:nth-child(10) {
+    right: 140px;
+}
+.tl_listing .object-information {
+    display: flex;
+    font-size: 12px;
+    border: 1px solid #e9e9e9;
+    background: #f3f3f5;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.tl_listing .object-information .image {
+    width: 118px;
+    margin-right: 10px;
+}
+.tl_listing .object-information .info {
+    display: table;
+    width: 100%;
+    min-width: 140px;
+    margin-bottom: 22px;
+}
+.tl_listing .object-information .info > div {
+    display: table-row;
+}
+.tl_listing .object-information .info > div > span {
+    display: table-cell;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 1px solid #e3e3e3;
+}
+.tl_listing .object-information .info > div > span:first-child {
+    font-weight: 600;
+    padding-right: 4px;
+    color: #8c8c8c;
+    width: 42px;
+}
+.tl_listing .object-information .info > div:first-child > span {
+    padding-top: 0;
+    border-top: 0 none;
+}
+.tl_listing .object-information:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .settings_hub .settings_hub_head {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .settings_hub .settings_hub_head .settings_hub_info span {
+        text-align: right;
+    }
+    .settings_hub .settings_hub_listing_container .settings_hub_group {
+        width: calc((100% / 3) - 18px);
+    }
+}
+

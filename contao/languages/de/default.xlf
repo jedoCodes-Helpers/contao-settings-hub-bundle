@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/cs02/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="src/Resources/contao/languages/en/default.xlf" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="MSC.settings_hub_description">
+        <source>The settings hub is a product of %s</source>
+        <target>Der Einstellungs-Manager ist ein Produkt von %s</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_company">
+        <source>jedoCodes</source>
+        <target>jedoCodes</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_documentation">
+        <source>Documentation</source>
+        <target>Dokumentation</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_website">
+        <source>Project website</source>
+        <target>Projekt-Homepage</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_issue">
+        <source>Report an error</source>
+        <target>Fehler melden</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_logo">
+        <source>jedoCodes Settings Hub</source>
+        <target>jedoCodes Einstellungs Manager</target>
+      </trans-unit>
+      <trans-unit id="MSC.settings_hub_logo_description">
+        <source>for contao extensions by jedoCodes</source>
+        <target>Für alle ünterstüzuten Contao Erweiterungen von jedoCodes.</target>
+      </trans-unit>
+            <trans-unit id="MSC.settings_hub_logo_description_2">
+              <source>It offers you the central location for the settings of our products.</source>
+              <target>Er bietet Ihnen die zentralle Stelle für die Einstellungen unserer Produkte.</target>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>

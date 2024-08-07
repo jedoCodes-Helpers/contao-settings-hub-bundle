@@ -1,0 +1,35 @@
+<div class="settings_hub">
+    <div class="settings_hub_head">
+        <div class="settings_hub_logo">
+            <h3><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_logo'] ?? null)?></h3>
+            <p><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_logo_description'] ?? null)?></p>
+            <p><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_logo_description_2'] ?? null)?></p>
+        </div>
+        <div class="settings_hub_info">
+            <span><?=$this->version?></span>
+            <div><?=$this->description?></div>
+        </div>
+    </div>
+    <div class="settings_hub_listing_container">
+        <?php foreach ($this->groups as $group): ?>
+            <div class="settings_hub_group">
+                <h3 class="<?= $group['alias'] ?>"><?= $group['group'] ?></h3>
+                <div class="settings_hub_group_inner">
+                    <?php foreach ($group['modules'] as $module): ?>
+                        <?php if ($module['denied']): ?>
+                            <span class="denied"><?=$module['title']?></span>
+                        <?php else: ?>
+                            <a href="<?= $module['link'] ?>"<?=(strpos($module['link'], "http") === 0)?' target="_blank"':''?>><?=$module['title']?></a>
+                        <?php endif; ?>
+                        <p><?= $module['desc'] ?></p>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+    <div class="settings_hub_footer">
+        <a href="https://jedo.codes/" target="_blank"><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_website'] ?? null)?></a> ·
+        <a href="https://docs.jedo.codes/" target="_blank"><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_documentation'] ?? null)?></a> ·
+        <a href="https://github.com/jedoCodes?tab=repositories" target="_blank"><?=($GLOBALS['TL_LANG']['MSC']['settings_hub_issue'] ?? null)?></a>
+    </div>
+</div>

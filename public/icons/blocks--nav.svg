@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+  <rect width="7" height="7" x="14.471" y="2.51" rx="1" style="stroke: rgb(159, 164, 168);" transform="matrix(1, 0, 0, 1, 0, -2.7755575615628914e-17)"/>
+  <path d="M 9.636 21.123 L 9.636 8.123 C 9.636 7.571 9.188 7.123 8.636 7.123 L 3.636 7.123 C 3.083 7.123 2.636 7.571 2.636 8.123 L 2.636 20.123 C 2.636 20.676 3.083 21.123 3.636 21.123 L 15.636 21.123 C 16.188 21.123 16.636 20.676 16.636 20.123 L 16.636 15.123 C 16.636 14.571 16.188 14.123 15.636 14.123 L 2.636 14.123" style="stroke: rgb(159, 164, 168);" transform="matrix(1, 0, 0, 1, 0, -2.7755575615628914e-17)"/>
+</svg>
