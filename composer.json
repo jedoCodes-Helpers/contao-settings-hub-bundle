@@ -1,5 +1,5 @@
 {
-    "name": "jedocodes/contao-settings-hub-bundle",
+    "name": "jedocodes-helpers/contao-settings-hub-bundle",
     "description": "This bundle bring a Contao backend for other bundles by jedoCodes. No separate installation required.",
     "license": "LGPL-3.0-or-later",
     "type": "MIT",
