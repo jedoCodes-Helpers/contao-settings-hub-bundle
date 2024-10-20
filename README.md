@@ -1,7 +1,7 @@
-# Zentralisierte Einstellungen für Contao
+# Zentralisierte Einstellungen für jedoCodes Contao Produkte
 
 ### Ein Produkt von jedoCodes
-Dieses Bundle ermöglicht es, alle Einstellungen der von mir unterstützten Produkte an einem zentralen Ort in Contao zu verwalten. 
+Dieses Bundle ermöglicht es, alle Einstellungen der unterstützten Produkte von jedoCodes an einem zentralen Ort in Contao zu verwalten. 
 Dadurch wird vermieden, dass Einstellungen separat in jedem Bundle vorgenommen werden müssen.
 
 Weitere Informationen finden Sie hier: [Dokumentationen][1] 
@@ -13,7 +13,7 @@ Weitere Informationen finden Sie hier: [Dokumentationen][1]
 
 
 ## Installation und Nutzung
-Dieses Bundle wird nicht separat installiert. Es wird automatisch von den unterstützten Bundles installiert und integriert. 
+Dieses Bundle wird nicht separat installiert. Es wird automatisch von den unterstützten jedoCodes Bundles installiert und integriert. 
 Nach der Installation eines unterstützten Bundles findest du die zentralisierten Einstellungen im Contao Backend unter dem Menüpunkt “Konfigurationen” im Abschnitt "jedoCodes".
 
 Hier kannst du alle relevanten Parameter für die unterstützten Produkte anpassen und verwalten.
